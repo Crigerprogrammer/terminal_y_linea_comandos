@@ -34,3 +34,31 @@ Ejemplo:
 
 - Comando para listar archivos de un directorio:
 **ls**
+**ls -a** <-- para ver todos los archivos (también ocultos)
+
+- Identificar el directorio:
+**pwd**
+
+- Cambiar directorio:
+**cd** 
+
+### Como organizar archivos
+
+- Crear un directorio
+**mkdir** 
+**ls -l** <-- Para observar todo los archivos y ver logs y permisos
+
+- Copiar un archivo
+**cp** 
+Ejemplo: cp README.md platzi
+
+- Borrar un archivo
+**rm** 
+Ejemplo: rm README.md
+
+- Mover un archivo
+**mv**
+Ejemplo: mv ../terminal .
+
+- Borrar un directorio
+**rmdir**
