@@ -17,4 +17,9 @@ Ejemplo de comandos:
 - date
 - echo "Cristian"
 - man date
+- history
 
+### Utilidades de CLI
+- Comodines
+- Combinaciones de teclas
+- Sustitución de comandos
