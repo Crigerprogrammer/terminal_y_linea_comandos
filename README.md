@@ -62,3 +62,17 @@ Ejemplo: mv ../terminal .
 
 - Borrar un directorio
 **rmdir**
+
+## Tipos de archivo
+Existe binarios y de texto (archivos)
+
+### Archivos Binarios
+- Programas ejecutables
+- Archivos de datos
+
+### Archivos de texto
+- Contenido legible por humanos
+
+### Utilidades interactivas
+Programas que procesan texto en tiempo real
+como vim o nano
