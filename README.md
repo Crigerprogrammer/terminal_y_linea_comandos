@@ -23,3 +23,6 @@ Ejemplo de comandos:
 - Comodines
 - Combinaciones de teclas
 - Sustitución de comandos
+
+## Orgnanización de Información
+Se puede organizar por medio de archivos y organizar los archivos por medio de directorios
