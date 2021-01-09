@@ -79,13 +79,20 @@ como vim o nano
 
 #### Como utilizar vim:
 para ejecutar vim, hay que escribir en la terminal: vim + nombre_archivo
-La interfaz no es gráfica y tiene distintos comandos para editar el archivo
-Para entrar al modo insertar (Ctrl+I)
-Para terminar el modo insertar (Esc)
-Para guardar lo que se escribió (:w) (despues de salir del modo inserción)
-Para salir de vim (:q)
-Guardar el archivo y salir de vim (:x) 
+La interfaz no es gráfica y tiene distintos comandos para editar el archivo 
+
+Para entrar al modo insertar (Ctrl+I) 
+
+Para terminar el modo insertar (Esc) 
+
+Para guardar lo que se escribió (:w) (despues de salir del modo inserción) 
+
+Para salir de vim (:q) 
+
+Guardar el archivo y salir de vim (:x)  
+
 
 #### Como utilizar nano:
-Nano es más sencillo que vim, se ejecuta, escribiendo en la terminal: nano + nombre_archivo
-nano tiene una serie de ayuda debajo del editor con sus shortcuts
+Nano es más sencillo que vim, se ejecuta, escribiendo en la terminal: nano + nombre_archivo 
+
+nano tiene una serie de ayuda debajo del editor con sus shortcuts 
