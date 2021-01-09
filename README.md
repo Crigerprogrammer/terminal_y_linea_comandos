@@ -26,3 +26,11 @@ Ejemplo de comandos:
 
 ## Orgnanización de Información
 Se puede organizar por medio de archivos y organizar los archivos por medio de directorios
+
+- Identificación de Archivos
+Están identificados por nombre y ubicación
+Ejemplo:
+**/directorio/subdirectorio/archivo/** <--- path
+
+- Comando para listar archivos de un directorio:
+**ls**
