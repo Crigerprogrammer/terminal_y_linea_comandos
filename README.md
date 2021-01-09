@@ -96,3 +96,24 @@ Guardar el archivo y salir de vim (:x)
 Nano es más sencillo que vim, se ejecuta, escribiendo en la terminal: nano + nombre_archivo 
 
 nano tiene una serie de ayuda debajo del editor con sus shortcuts 
+
+## Utilidades Batch
+Programas que procesan texto y emiten el resultado 
+
+- Comandos para procesar archivos:
+**cat** : permite ver el contenido del archivo 
+**head** :  solo muestra las primeras lineas del archivo (se puede pasar parametro para limitar cuantas lineas ver )
+**tail** : solo muetras las ultimas lineas del archivo 
+**grep** : Búsqueda por expresiones regulares. 
+Ejemplo: 
+- grep Hanks dump1.sql
+- grep -i hanks dump1.sql
+- grep -i "hanks$" dump1.sql
+**sed** : Tratamiento de flujos de caracteres 
+Ejemplo: 
+- sed 's/Hanks/Selleck/g' dump1.sql <-- reemplaza
+- sed '$d' nuevasPelis.csv <--- Elimina la ultima linea
+**awk** : Tratamiendo de text delimitado (diferente a sed, trabaja mejor con csv)
+Ejemplo: 
+- awk -F ';' '{print $1}' nuevasPelis.csv 
+- awk -F ';' 'NR > 1 && $3 > {print $1}' nuevasPelis.csv 
