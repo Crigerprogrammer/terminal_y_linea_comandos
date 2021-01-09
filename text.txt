@@ -1,3 +1,5 @@
 Hola estoy editando en vim!!! 
 
 Otra linea en vim
+
+Ya estoy en modo edición con nano!
