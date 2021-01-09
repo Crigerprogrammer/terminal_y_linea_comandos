@@ -13,3 +13,8 @@ Porque la terminal tiene mayor eficiencia al momento de ejecutar las instruccion
 - Nombre de un programa
 - Parámetros
 - Modificadores
+Ejemplo de comandos: 
+- date
+- echo "Cristian"
+- man date
+
