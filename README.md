@@ -126,3 +126,4 @@ Flujos de estandar:
 
 **Tuberias** 
 - ls -l | more
+Tuberias nos permite comunicar mas instrucciones desde la terminal
