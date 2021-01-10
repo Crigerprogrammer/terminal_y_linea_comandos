@@ -123,3 +123,6 @@ Flujos de estandar:
 - Entrada
 - Salida
 - Error
+
+**Tuberias** 
+- ls -l | more
