@@ -117,3 +117,9 @@ Ejemplo:
 Ejemplo: 
 - awk -F ';' '{print $1}' nuevasPelis.csv 
 - awk -F ';' 'NR > 1 && $3 > {print $1}' nuevasPelis.csv 
+
+## Procesamiento de datos
+Flujos de estandar:
+- Entrada
+- Salida
+- Error
