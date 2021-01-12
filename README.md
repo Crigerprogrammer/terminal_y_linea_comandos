@@ -162,3 +162,19 @@ El primer grupo es para dueño, el segundo para grupo y el ultimo para otro usua
 - chgrp : cambia grupo de usuarios para acceder al archivo
     - Ejemplos:
     - chmod o-w nuevo.text (Cambia el permiso de escritura para otros)
+
+## Manejo de paquetes
+Diferentes manejadores de paquetes:
+- apt
+- zypper  
+- rpm
+Ejemplo con apt:
+- apt install lynx 
+
+**Instaladores de paquetes para lenguajes**:
+- pip (python)
+- composer (php)
+- npm (node js)
+**Ejemplo con pip**
+- *pip install pandas*
+
