@@ -155,3 +155,10 @@ El segundo caracter denota si el usuario tiene permiso de lectura (r)
 El tercer caracter denota si el usuario tiene permisos de escritura (w)
 El cuarto caracter denota si el usuario tiene permisos de ejecución (x)
 El primer grupo es para dueño, el segundo para grupo y el ultimo para otro usuario
+
+### Alterar permisos
+- chmod : cambia permisos al archivo
+- chown : cambia quien es el propietario
+- chgrp : cambia grupo de usuarios para acceder al archivo
+    - Ejemplos:
+    - chmod o-w nuevo.text (Cambia el permiso de escritura para otros)
