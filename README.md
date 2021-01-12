@@ -185,3 +185,10 @@ Ejemplo con apt:
 Después del gzip el archivo pesa 5.4k y antes pesaba 19k
 - gzip -d (para descomprimir los archivos .gz)
 
+### Combinación de archivos
+**tar** es una herramienta que permite agrupar una serie de archivos, el tamaño es el mismo a sumar todos *ejemplo*:
+- tar cf bakcup.tar backup/*
+
+### Creando un archivo agrupado y comprimido
+Para realizar esta operación se requiere de las dos herramientas antes mencionadas, el comando es **czf**
+- Ejemplo: czf backup.tgz bakcup/*
