@@ -203,3 +203,8 @@ Comandos HTTP:
 - curl : Se utiliza para hacer pedidos crudos, *Ejemplo*:
 **curl hhtps://platzi.com** (Retorna lo crudo)
 - wget : Realiza descarga desde servidores HTTP
+
+## Acceso seguro a otras computadoras
+SSH (Terminal segura)
+nos permite conectarnos a otro ordenador remotamente de una forma segura, nuestra conexión hacia el otro ordenador viaja encriptada y aunque fuese interceptada por agentes maliciosos, sería imposible descubrir la data que viaja en los paquetes.
+Al terminar la conexión se logrará observar una terminal y poder operar el ordenador con comandos.
