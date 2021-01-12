@@ -178,3 +178,10 @@ Ejemplo con apt:
 **Ejemplo con pip**
 - *pip install pandas*
 
+## Comprensión de archivos
+**gzip** es un comando en la terminal para comprimir archivos y reducir significativamente el tamaño de un archivo para aumentar la velocidad de transferirlo
+- Ejemplo:
+- gzip dump4.sql
+Después del gzip el archivo pesa 5.4k y antes pesaba 19k
+- gzip -d (para descomprimir los archivos .gz)
+
