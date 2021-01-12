@@ -221,3 +221,6 @@ para instalar utilidades de correo con comando:
 
 ## Varibales de Entorno
 Es una definición global donde todos los procesos tienen acceso
+
+## Automatización de Tareas
+La terminal es un interprete y funciona para automatizar tareas repetitivas, esto se le conoce como bash scripting. *Ejemplo*
