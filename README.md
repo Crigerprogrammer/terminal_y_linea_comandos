@@ -197,3 +197,9 @@ Para realizar esta operación se requiere de las dos herramientas antes menciona
 - locate : permite buscar un archivo en todo el sistema de archivo con el nombre del archivo, funciona como una base de datos, hay que actualizar la base de datos previo a buscar, con **updatedb** *Ejemplo* : **locate hello.php**
 - whereis : Permite buscar archivos binarios , *Ejemplo*: **whereis echo**
 - find : Busca por dentro de un arbol de directorios, utilizando criterios como por usuario, por permisos o nombre de usuario
+
+## Interacción vía HTTP
+Comandos HTTP:
+- curl : Se utiliza para hacer pedidos crudos, *Ejemplo*:
+**curl hhtps://platzi.com** (Retorna lo crudo)
+- wget : Realiza descarga desde servidores HTTP
