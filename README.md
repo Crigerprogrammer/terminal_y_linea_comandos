@@ -130,3 +130,12 @@ Tuberias nos permite comunicar mas instrucciones desde la terminal
 
 ## Cómo lanzar nuevos procesos
 Para ejecutar una tarea mientras se  ejecuta una, se puede lograr con el simbolo **&** Al final de la tarea, y cuando termine de ejecutar se mostrará en la terminal
+
+**Como conocer los procesos que se estan ejecutando**
+- ps : Muestra los procesos de memoria
+- top : Utilidad interactivda, como los procesos en tiempo real
+
+**Como detener un proceso**
+- Ctrl + C
+- kill : Funciona dando señales a los procesos para terminar los procesos 
+- killall : Hace lo mismo que kill, solo que no se pasa el numero de proceso, sino que el nombre
