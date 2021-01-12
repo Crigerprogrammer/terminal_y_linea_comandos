@@ -208,3 +208,13 @@ Comandos HTTP:
 SSH (Terminal segura)
 nos permite conectarnos a otro ordenador remotamente de una forma segura, nuestra conexión hacia el otro ordenador viaja encriptada y aunque fuese interceptada por agentes maliciosos, sería imposible descubrir la data que viaja en los paquetes.
 Al terminar la conexión se logrará observar una terminal y poder operar el ordenador con comandos.
+
+### Configuración de un servicio Mailing
+Para enviar correos desde la terminal necesitamos contar con utilidades en la computadora.
+
+La primera es **postfix**, un servidor de correo que se encargará de las tareas de comunicación con los servidores de destino.
+
+para instalar utilidades de correo con comando:
+*sudo apt install mailutils*
+**Ejemplo para enviar correo**
+- echo "Hola Mundo!" | mail -s "Testing" crigerprogrammer@gmail.com
