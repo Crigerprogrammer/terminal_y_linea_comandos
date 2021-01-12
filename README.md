@@ -139,3 +139,19 @@ Para ejecutar una tarea mientras se  ejecuta una, se puede lograr con el simbolo
 - Ctrl + C
 - kill : Funciona dando señales a los procesos para terminar los procesos 
 - killall : Hace lo mismo que kill, solo que no se pasa el numero de proceso, sino que el nombre
+
+## Permisos sobre archivos
+Todos los archivos en Unix tienen un dueño, un grupo de colaboradores que se les otorga permisos y otros usuarios que tienen otro tipo de permisos.
+
+Los permisos de los archivos son:
+- Lectura
+- Escritura
+- Ejecución
+
+para ver los permisos es con **ls -l**
+Los permisos se dividen en grupos de 3:
+El primer caracter indica si es un link (l), un directorio (d) o un archivo comun (-)
+El segundo caracter denota si el usuario tiene permiso de lectura (r)
+El tercer caracter denota si el usuario tiene permisos de escritura (w)
+El cuarto caracter denota si el usuario tiene permisos de ejecución (x)
+El primer grupo es para dueño, el segundo para grupo y el ultimo para otro usuario
