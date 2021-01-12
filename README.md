@@ -218,3 +218,6 @@ para instalar utilidades de correo con comando:
 *sudo apt install mailutils*
 **Ejemplo para enviar correo**
 - echo "Hola Mundo!" | mail -s "Testing" crigerprogrammer@gmail.com
+
+## Varibales de Entorno
+Es una definición global donde todos los procesos tienen acceso
