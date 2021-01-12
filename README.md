@@ -192,3 +192,8 @@ Después del gzip el archivo pesa 5.4k y antes pesaba 19k
 ### Creando un archivo agrupado y comprimido
 Para realizar esta operación se requiere de las dos herramientas antes mencionadas, el comando es **czf**
 - Ejemplo: czf backup.tgz bakcup/*
+
+## Herramientas de búsqueda de archivos
+- locate : permite buscar un archivo en todo el sistema de archivo con el nombre del archivo, funciona como una base de datos, hay que actualizar la base de datos previo a buscar, con **updatedb** *Ejemplo* : **locate hello.php**
+- whereis : Permite buscar archivos binarios , *Ejemplo*: **whereis echo**
+- find : Busca por dentro de un arbol de directorios, utilizando criterios como por usuario, por permisos o nombre de usuario
