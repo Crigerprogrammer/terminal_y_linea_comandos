@@ -127,3 +127,6 @@ Flujos de estandar:
 **Tuberias** 
 - ls -l | more
 Tuberias nos permite comunicar mas instrucciones desde la terminal
+
+## Cómo lanzar nuevos procesos
+Para ejecutar una tarea mientras se  ejecuta una, se puede lograr con el simbolo **&** Al final de la tarea, y cuando termine de ejecutar se mostrará en la terminal
