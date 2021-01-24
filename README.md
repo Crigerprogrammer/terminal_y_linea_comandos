@@ -1,4 +1,4 @@
-## Temas
+## Temas de Terminal
 - Qué es la terminal
 - Por qué usar la terminal
 - Cómo usar la terminal
