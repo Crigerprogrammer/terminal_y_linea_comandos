@@ -9,7 +9,7 @@ La terminal es un programa de interfáz de texto (sin botones, ni diseño), que 
 - ¿Por qué usar una terminal y no un software más visual o cómodo de interfaz?
 Porque la terminal tiene mayor eficiencia al momento de ejecutar las instrucciones
 
-### Los Comandos
+### Los Comandos .
 - Nombre de un programa
 - Parámetros
 - Modificadores
