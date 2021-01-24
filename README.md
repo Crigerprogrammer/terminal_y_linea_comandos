@@ -37,7 +37,7 @@ Ejemplo:
 **ls -a** <-- para ver todos los archivos (también ocultos)
 
 - Identificar el directorio:
-**pwd**
+**pwd**/ este comando indica que directorios nos econtramos
 
 - Cambiar directorio:
 **cd** 
